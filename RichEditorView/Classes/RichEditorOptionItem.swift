@@ -51,7 +51,7 @@ public struct RichEditorOptionItem: RichEditorOption {
 }
 
 /// RichEditorOptions is an enum of standard editor actions
-@objc public enum RichEditorDefaultOption: RichEditorOption {
+@objc public enum RichEditorDefaultOption: Int {
 
     case clear
     case undo
