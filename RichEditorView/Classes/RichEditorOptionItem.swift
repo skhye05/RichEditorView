@@ -26,7 +26,7 @@ import UIKit
 
 /// RichEditorOptionItem is a concrete implementation of RichEditorOption.
 /// It can be used as a configuration object for custom objects to be shown on a RichEditorToolbar.
-@objc public struct RichEditorOptionItem: RichEditorOption {
+public struct RichEditorOptionItem: RichEditorOption {
 
     /// The image that should be shown when displayed in the RichEditorToolbar.
     public var image: UIImage?
